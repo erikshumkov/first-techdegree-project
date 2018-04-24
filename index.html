@@ -2,54 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Jane Smith's Profile</title>
+  <title>Erik Shumkov's Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
 
     <div class="main-nav">
         <ul class="nav">
-          <li class="name">Jane Smith</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Experience</a></li>
+          <li class="name">Erik Shumkov</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
 
     <header>
-      <img src="images/me.png" alt="Drawing of Jane Smith" class="profile-image">
-      <h1 class="tag name">Hello, I’m Jane.</h1>
-      <p class="tag location">My home is Portland, Oregon.</p>
+      <img src="images/self.jpg" alt="Profile Picture of Erik Shumkov" class="profile-image">
+      <h1 class="tag name">Hey, I'm Erik.</h1>
+      <a class="aboutme" href="about.html"><p class="tag location">About Me</p></a>
     </header>
 
     <main class="flex">
-      <div class="card">
-        <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
-      </div> 
+      <div class="card first">
+        <h2 id="about">Front End Developer</h2>
+
+        <p>I'm an aspiring web developer who's currently learning how to code at
+          <a class="treehouse" href="https://teamtreehouse.com/" target="_blank">Team Treehouse</a>.
+          My journey started over there in May last year, taking their courses but recently I decided
+          to go for the techdegree program to get the extra push and support in my learning process
+          and I believe it will make a huge difference in making me job ready.</p>
+
+      </div>
 
       <div class="card">
-        <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+        <h2>Vision</h2>
+        <p>My goal is to get a good understanding and to keep myself updated in the following languages:</p>
         <ul class="skills">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
         </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
-      </div> 
+        <p>I'd like to become a Front End Developer working full time for a local web desing firm,
+          and to give the customer an amazing product. I will also learn more about the back end and get a better
+          understanding of the process.</p>
+      </div>
 
     </main>
     <footer>
       <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
+        <li><a href="https://github.com/erikshumkov" target="_blank" class="social github">Github</a></li>
       </ul>
-      <p class="copyright">Copyright 2015, Jane Smith</p>
+      <p class="copyright">Copyright 2018, Erik Shumkov</p>
     </footer>
   </body>
   </html>
