@@ -150,7 +150,7 @@ header .profile-image:hover {
   border-color: red;
 }
 .card-training h2 {
-  margin: inherit 0 0 0;
+  margin: 20px 0 15px 0;
 }
 .image-ocr {
   object-fit: contain;
